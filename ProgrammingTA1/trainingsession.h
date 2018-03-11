@@ -26,7 +26,6 @@ private:
     double _vo2max;
 
 
-
 };
 
 #endif // TRAININGSESSION_H

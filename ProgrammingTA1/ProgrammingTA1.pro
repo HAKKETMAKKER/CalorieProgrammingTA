@@ -10,3 +10,7 @@ SOURCES += main.cpp \
 HEADERS += \
     heartrate.h \
     trainingsession.h
+
+DISTFILES += \
+    hrdata.csv.csv \
+    hrdata.csv

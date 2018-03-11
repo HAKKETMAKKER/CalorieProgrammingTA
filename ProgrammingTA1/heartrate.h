@@ -1,23 +1,28 @@
 #ifndef HEARTRATE_H
 #define HEARTRATE_H
-
+#include <string>
 
 class HeartRate
 {
 public:
     HeartRate();
-    HeartRate(int hr, int time);
+    HeartRate(std::string hr, std::string timeHours, std::string timeMinutes, std::string timeSeconds, std::string cadence, std::string temperature);
 
     void setHeartRate(int hr);
     void setTime(int time);
 
-    int getHeartRate(int time);
-    int getTime();
+    std::string getHeartRate();
+    std::string getTimeHours();
+    std::string getTimeMinutes();
+    std::string getTimeSeconds();
 
 private:
-    int _hr;
-    int _time;
-
+    std::string _hr;
+    std::string _timeHours;
+    std::string _timeMinutes;
+    std::string _timeSeconds;
+    std::string _cadence;
+    std::string _temperature;
 };
 
 #endif // HEARTRATE_H

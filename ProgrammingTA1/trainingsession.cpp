@@ -19,7 +19,6 @@ TrainingSession::TrainingSession(int age, double weight, double vo2max){
 //Insert data into member variables time and hr
 //close the file.
 void TrainingSession::readData(std::string filename){
-
 }
 
 /*Function to calculate amount of calories burnt
@@ -39,3 +38,4 @@ double TrainingSession::calcBMR(){
 //Function that returns the total amount of time passed
 double TrainingSession::totalTime(){
 }
+
